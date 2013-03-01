@@ -1,0 +1,270 @@
+@base           <http://purl.org/collections/nl/viervijfmei/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix  vvm: <http://purl.org/collections/nl/viervijfmei/> .
+@prefix dcterms: <http://purl.org/dc/terms/>.
+# Named toplevel resources (36)
+
+<ID>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "ID" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:identifier .
+
+<Row>
+	a rdfs:Class ;
+	rdfs:label "Monument" ;
+	rdfs:subClassOf dcterms:PhysicalObject .
+
+<VVMConceptScheme>
+	a skos:ConceptScheme ;
+	rdfs:label "VVM ConceptScheme" .
+
+<address>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "address" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:related .
+
+<adoptionschools>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "adoptionschools" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:related .
+
+<artist>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "artist" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:creator .
+
+<city>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "city" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:spatial .
+
+<collaboration>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "collaboration" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:contributor .
+
+<community>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "community" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:spatial .
+
+<country>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "country" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:spatial .
+
+<datakidurl>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "datakidurl" ;
+	rdfs:range rdfs:Literal .
+
+<datasource_id>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "datasource_id" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:identifier .
+
+<history>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "history" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:description .
+
+<image>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "image" ;
+	rdfs:range rdfs:Resource ;
+	rdfs:subPropertyOf dcterms:relation .
+
+<images>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "images" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:spatial .
+
+<info>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "info" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:description .
+
+<last_import_date>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "last_import_date" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:dateSubmitted .
+
+<latitude>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "latitude" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:spatial .
+
+<longitude>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "longitude" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:spatial .
+
+<memorialgroups>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "memorialgroups" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:description .
+
+<modified_by>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "modified_by" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:description .
+
+<modified_date>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "modified_date" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:modified .
+
+<number>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "number" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:identifier .
+
+<otherinfo>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "otherinfo" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:description .
+
+<page_structure_id>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "page_structure_id" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:description .
+
+<state>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "state" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:spatial .
+
+<status>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "status" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:description .
+
+<title>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "title" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:title .
+
+<uitgelicht>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "uitgelicht" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:relation .
+
+<unveilingdate>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "unveilingdate" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:created .
+
+<unveilingday>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "unveilingday" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:created .
+
+<unveilingmonth>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "unveilingmonth" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:created .
+
+<unveilingyear>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "unveilingyear" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:created .
+
+<version>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "version" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:description .
+
+<witnessaccounts>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "witnessaccounts" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:relation .
+
+<zipcode>
+	a rdf:Property ;
+	rdfs:domain <Row> ;
+	rdfs:label "zipcode" ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf dcterms:spatial .
+	
+<memorialgroup>
+	a rdf:Property ;
+	rdfs:label "memorial group" ;
+	rdfs:range skos:Concept ;
+	rdfs:subPropertyOf dcterms:description .	
+	
+<memorialtype>
+	a rdf:Property ;
+	rdfs:label "memorial type" ;
+	rdfs:range skos:Concept;
+	rdfs:subPropertyOf dcterms:type .
+	
+<qualifier>
+	a rdf:Property ;
+	rdfs:label "artist qualifier" ;
+	rdfs:range rdfs:Literal.	
+	

@@ -1,0 +1,166 @@
+
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix  vvm: <http://purl.org/collections/nl/viervijfmei/> .
+
+# ====== NOTES ===========
+#  This TTL doc was made by hand by Victor de Boer on 1-3-2013 based on an 
+#  excel sheet provided by 4en5mei, through Gerard Kuys.
+
+
+# ====== MEMORIAL GROUPS ===========
+vvm:MemorialGroups
+	a skos:ConceptScheme;
+	rdfs:label "VVM MemorialGroups".
+
+vvm:memorialgroup-25788	
+	a skos:Concept;
+	skos:inScheme vvm:MemorialGroups;
+	skos:prefLabel "Vervolgden Nederland"@nl;
+	skos:note "25788".
+	
+vvm:memorialgroup-28308	
+	a skos:Concept;
+	skos:inScheme vvm:MemorialGroups;
+	skos:prefLabel "Overig"@nl;
+	skos:note "28308".
+	
+vvm:memorialgroup-26678	
+	a skos:Concept;
+	skos:inScheme vvm:MemorialGroups;
+	skos:prefLabel "Verzet Nederland"@nl;
+	skos:note "26678".
+	
+vvm:memorialgroup-23710	
+	a skos:Concept;
+	skos:inScheme vvm:MemorialGroups;
+	skos:prefLabel "Burgerslachtoffers"@nl;
+	skos:note "23710".
+	
+vvm:memorialgroup-22980	
+	a skos:Concept;
+	skos:inScheme vvm:MemorialGroups;
+	skos:prefLabel "Militairen in dienst van het Ned. Kon. 1940-19450"@nl;
+	skos:note "22980".
+	
+vvm:memorialgroup-21720	
+	a skos:Concept;
+	skos:inScheme vvm:MemorialGroups;
+	skos:prefLabel "Geallieerde militairen"@nl;
+	skos:note "21720".
+	
+vvm:memorialgroup-20968
+	a skos:Concept;
+	skos:inScheme vvm:MemorialGroups;
+	skos:prefLabel "Allen"@nl;
+	skos:note "20968".
+	
+vvm:memorialgroup-21250	
+	a skos:Concept;
+	skos:inScheme vvm:MemorialGroups;
+	skos:prefLabel "Militairen in dienst Militairen in dienst van het Ned. Kon. na 1945"@nl;
+	skos:note "21250".
+	
+vvm:memorialgroup-22936	
+	a skos:Concept;
+	skos:inScheme vvm:MemorialGroups;
+	skos:prefLabel "Koopvaardijpersoneel"@nl;
+	skos:note "22936".
+	
+vvm:memorialgroup-25728	
+	a skos:Concept;
+	skos:inScheme vvm:MemorialGroups;
+	skos:prefLabel "Burgers voormalig Nederlands-Indie"@nl; # replaced .. on e
+	skos:note "25728".
+
+		
+vvm:memorialgroup-19878	
+	a skos:Concept;
+	skos:inScheme vvm:MemorialGroups;
+	skos:prefLabel "Algemeen"@nl; 
+	skos:note "19878".
+
+# ====== MEMORIAL TYPES ===========
+vvm:MemorialTypes
+	a skos:ConceptScheme;
+	rdfs:label "VVM MemorialTypes"@nl.
+	
+vvm:memorialtype-1
+	a skos:Concept;
+	skos:inScheme vvm:MemorialTypes;
+	skos:prefLabel "plaquette"@nl;
+	skos:note "1".
+
+vvm:memorialtype-2
+	a skos:Concept;
+	skos:inScheme vvm:MemorialTypes;
+	skos:prefLabel "kapel"@nl;
+	skos:note "2".
+	
+vvm:memorialtype-3
+	a skos:Concept;
+	skos:inScheme vvm:MemorialTypes;
+	skos:prefLabel "Kruis"@nl;
+	skos:note "3".
+
+vvm:memorialtype-4
+	a skos:Concept;
+	skos:inScheme vvm:MemorialTypes;
+	skos:prefLabel "gedenksteen"@nl;
+	skos:note "4".
+
+vvm:memorialtype-5
+	a skos:Concept;
+	skos:inScheme vvm:MemorialTypes;
+	skos:prefLabel "beeld/sculptuur"@nl;
+	skos:note "5".
+	
+vvm:memorialtype-6
+	a skos:Concept;
+	skos:inScheme vvm:MemorialTypes;
+	skos:prefLabel "relief"@nl; # replaced .. on e
+	skos:note "6".
+
+vvm:memorialtype-7
+	a skos:Concept;
+	skos:inScheme vvm:MemorialTypes;
+	skos:prefLabel "begraafplaats/graf"@nl;
+	skos:note "7".
+
+vvm:memorialtype-8
+	a skos:Concept;
+	skos:inScheme vvm:MemorialTypes;
+	skos:prefLabel "overig"@nl;
+	skos:note "8".
+
+vvm:memorialtype-9
+	a skos:Concept;
+	skos:inScheme vvm:MemorialTypes;
+	skos:prefLabel "zuil"@nl;
+	skos:note "9".
+
+vvm:memorialtype-10
+	a skos:Concept;
+	skos:inScheme vvm:MemorialTypes;
+	skos:prefLabel "gedenkbank"@nl;
+	skos:note "10".
+
+vvm:memorialtype-11
+	a skos:Concept;
+	skos:inScheme vvm:MemorialTypes;
+	skos:prefLabel "gedenkmuur"@nl;
+	skos:note "11".
+	
+vvm:memorialtype-12
+	a skos:Concept;
+	skos:inScheme vvm:MemorialTypes;
+	skos:prefLabel "boom"@nl;
+	skos:note "12".
+
+vvm:memorialtype-13
+	a skos:Concept;
+	skos:inScheme vvm:MemorialTypes;
+	skos:prefLabel "glas-in-lood"@nl;
+	skos:note "13".
+
+	
